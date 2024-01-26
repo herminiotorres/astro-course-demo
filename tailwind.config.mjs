@@ -7,6 +7,9 @@ export default {
   ],
   theme: {
     extend: {
+      aspectRatio: {
+        thumbnail: '1.5',
+      },
       fontFamily: {
         sans: ['Cabin', ...defaultTheme.fontFamily.sans],
       },
